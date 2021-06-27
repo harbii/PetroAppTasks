@@ -1,5 +1,6 @@
 <p align="center"> <b>PetroApp tasks </b> </p>
 <p align="center"> Task 1 (Multi-Vendor Portal) :BackEnd </p>
+
 ## Requirements:
 - Customer Registration (Customer name, Email, Password)
 - Customer Login Can login with Email/Password.
@@ -18,13 +19,13 @@
 ## run project by command line:
 
 ``` 
-    $ git clone <link-of-this-page> mahmoudSamyTask
+    $ git clone https://github.com/harbii/PetroAppTasks.git mahmoudSamyTask
     $ cd mahmoudSamyTask
     $ composer install
     $ cp .env.example .env
     // set database name in .env file and create databese by that name
     $ nano .env
-    $ php artisan migrate:rollback
+    $ php artisan migrate
     4 ./vendor/bin/phpunit // to run unit test by phpunit
     $ php artisan serve    // to run unit test by server
 ```
